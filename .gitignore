@@ -1,0 +1,7 @@
+.env
+env
+__pycache__/
+*.py[cod]
+*$py.class
+tokenizer.model
+gpt4all-converted.bin
