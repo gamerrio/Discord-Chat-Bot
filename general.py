@@ -6,8 +6,8 @@ from pyllamacpp.model import Model
 
 
 load_dotenv()
-PATH = str(os.getenv("PATH"))
-
+PATH = str(os.getenv("MODEL"))
+print(PATH)
 def new_text_callback(text: str):
     print(text, end="", flush=True)
 
