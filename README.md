@@ -34,5 +34,8 @@ pip install -r requirements.txt
 ```
 TOKEN ="your-actual-discord-token-goes-here"
 MODEL = "you-model-name-here.bin"
-
+```
+6. run the python file
+```
+python3 main.py
 ```
